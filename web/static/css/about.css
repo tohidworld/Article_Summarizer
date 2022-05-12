@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+
+h1 {
+    color: #0a3d0a;
+}
+
+.container {
+    width: 100vw;
+    height: 150vh;
+    padding: 20px;    
+}
+
+.summarizer-container {
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+.about-summarizer-container {
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.aboutus-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.details-container {
+    background-color: white;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+    margin: 25px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+
+img {
+    border: 1px solid black;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+    border-radius: 50%;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail{
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
